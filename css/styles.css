@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'dead_kansasregular';
+    src: url('../css/fonts/dead_kansas-webfont.woff2') format('woff2'),
+         url('../css/fonts/dead_kansas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+  margin: auto;
+  width: 32%;
+}
+
+body {
+  background-image: url("../img/cover.jpg");
+}
+
+.jumbotron {
+  background-color: rgba(162,139,85, 0.25);
+  font-family: "dead_kansasregular";
+}
+
+.form-group,
+.thumbnail {
+  background-color: rgba(162,139,85, 0.70);
+  color: #4c1717;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.form-group {
+  height: 220px;
+}
+
+.btn {
+  background-color: rgba(59,59,33, 0.90);
+  color: #A28B55;
+}
+
+.btn:hover {
+  background-color: #282512;
+  color: #A28B55;
+}
+
+.thumbnail {
+  display: none;
+  margin: auto;
+  width: 50%;
+}
+
+.thumbnail .caption {
+  color: #4c1717;
+}
